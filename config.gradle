@@ -1,0 +1,43 @@
+ext {
+
+    customMaven = [
+            jitpack: 'https://jitpack.io',
+    ]
+
+    gradlePlugins = [
+    ]
+
+    jdk = [
+            sourceCompatibility: JavaVersion.VERSION_1_8,
+            targetCompatibility: JavaVersion.VERSION_1_8
+    ]
+
+    sdk = [
+            compileSdkVersion: 28,
+            targetSdkVersion : 28,
+            minSdkVersion    : 18,
+    ]
+
+    libVersions = [
+            support: '28.0.0',
+    ]
+
+    libs = [
+            supportV4Compat     : "com.android.support:support-compat:${libVersions.support}",
+            supportV4CoreUtils  : "com.android.support:support-core-utils:${libVersions.support}",
+            supportV4CoreUI     : "com.android.support:support-core-ui:${libVersions.support}",
+            supportV7           : "com.android.support:appcompat-v7:${libVersions.support}",
+            supportRecyclerView : "com.android.support:recyclerview-v7:${libVersions.support}",
+            supportPercentLayout: "com.android.support:percent:${libVersions.support}",
+            supportAnnotation   : "com.android.support:support-annotations:${libVersions.support}",
+            supportDesign       : "com.android.support:design:${libVersions.support}",
+            supportMultidex     : "com.android.support:multidex:1.0.2",
+            constraintLayout    : "com.android.support.constraint:constraint-layout:1.1.3",
+
+            devLog              : "net.devwiki.log:log:0.0.3",
+
+            junit               : "junit:junit:4.12",
+            testRunner          : "com.android.support.test:runner:1.0.2",
+            espressoCore        : "com.android.support.test.espresso:espresso-core:3.0.2"
+    ]
+}
