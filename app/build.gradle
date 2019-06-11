@@ -19,11 +19,7 @@ android {
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-    implementation project(':jumpactivity')
+    implementation project(':permission')
     implementation libs.supportV7
-    implementation libs.constraintLayout
     implementation libs.devLog
-    testImplementation libs.junit
-    androidTestImplementation libs.testRunner
-    androidTestImplementation libs.espressoCore
 }

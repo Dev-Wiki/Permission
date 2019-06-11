@@ -22,7 +22,4 @@ dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation libs.supportV7
     implementation libs.devLog
-    testImplementation libs.junit
-    androidTestImplementation libs.testRunner
-    androidTestImplementation libs.espressoCore
 }
