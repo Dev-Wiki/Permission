@@ -2,6 +2,5 @@
     <string name="app_name">Permission</string>
     <string name="str_jump_all_permission">Jump All Permission</string>
     <string name="str_jump_float_permission">Jump Float Permission</string>
-    <string name="str_jump_single_permission">Jump Single Permission</string>
     <string name="str_jump_notification_permission">Jump Notification Permission</string>
 </resources>

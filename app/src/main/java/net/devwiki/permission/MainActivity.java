@@ -38,10 +38,6 @@ public class MainActivity extends AppCompatActivity {
         manager.jumpAllPermissionPage();
     }
 
-    public void jumpSinglePermissionPage(View view) {
-        manager.jumpSinglePermissionPage("");
-    }
-
     public void jumpNotificationPermissionPage(View view) {
         manager.jumpNotificationPermissionPage();
     }
